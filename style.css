@@ -1,0 +1,101 @@
+/*Setting the webpage background colour*/
+ html, body {
+		background : white;
+			}
+/*Styling the websites header*/
+header {
+	 height: 10%;
+	 background: #1b5ad1;
+	 color: white;
+	 text-align : center;
+	 font-size: 36px;
+	 margin-top:-30px;
+	 
+} 
+/*Styling the buttons*/
+body {
+	height:80%;
+    padding: 0;
+    margin: 0;
+    font-family: Arial;
+    font-size: 17px;
+}
+#nav {
+    background-color: #222;
+}
+#nav_wrapper {
+    margin: 0 auto;
+    text-align: left;
+}
+#nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    min-width: 200px;
+}
+#nav ul li {
+    display: inline-block;
+}
+#nav ul li:hover {
+    background-color: #333;
+}
+#nav ul li a, visited {
+    color: #CCC;
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+}
+#nav ul li:hover ul {
+    display: block;
+}
+#nav ul ul {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    border: 5px solid #222;
+    border-top: 0;
+    margin-left: -5px;
+}
+#nav ul ul li {
+    display: block;
+}
+#nav ul ul li a:hover {
+    color: #699;
+}
+/*Style the information*/
+.left{
+float:left;
+width:48%;
+}
+.right{    
+width:48%;
+float: left;
+}
+#visual {
+		text-align:right;
+		float:left;
+		padding:20px;
+		margin: 10px 10px 10px 10px;
+		}
+/*Style the navigation footer menu*/
+#ftr {
+	height: 5%;
+	position:fixed;
+	bottom:0px;
+	left:0%;
+	right:0%;
+	background: #4286f4;
+	color: white;
+	text-align: center;	
+	list-style-type : none;
+	width : 100%;
+	display : block;
+	text-decoration:none;
+	font-size: 18px;
+}	
+#ftr a{
+		text-decoration:none;
+		font-size:18px;
+		color:yellow;	
+}
